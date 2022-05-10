@@ -1,0 +1,39 @@
+@import "~antd/dist/antd.css";
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.site-layout-sub-header-background {
+  background: #fff;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+[data-theme="dark"] .site-layout-sub-header-background {
+  background: #141414;
+}
+
+.multipleDropdownClassName .ant-picker-dropdown {
+  top: 0 !important;
+}
+
+.multipleDropdownClassName .ant-picker-cell-selected .ant-picker-cell-inner {
+  color: rgba(0, 0, 0, 0.85);
+
+  background: transparent;
+}
+
+.multipleDropdownClassName
+  .ant-picker-cell-in-view.ant-picker-cell-today
+  .ant-picker-cell-inner::before {
+  content: none;
+}
+

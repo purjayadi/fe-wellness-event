@@ -1,0 +1,9 @@
+export const MSG_FAILED_FETCH = "Ops!!! unable to fetch data";
+export const MSG_STORE_SUCCESS = "Data saved successfully";
+export const MSG_STORE_FAILED = "Failed to save data";
+export const MSG_DELETE_SUCCESS = "Data deleted successfully";
+export const MSG_DELETE_FAILED = "Failed to delete data";
+export const MSG_EDIT_SUCCESS = "Data updated successfully";
+export const MSG_UPDATE_SUCCESS = "Data updated successfully";
+export const MSG_UPDATE_FAILED = "Falied to update data"
+export const MSG_CONFIRM_DELETE = "Are you sure want delete this data?";
