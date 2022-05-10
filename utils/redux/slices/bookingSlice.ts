@@ -148,6 +148,8 @@ const bookingSlice = createSlice({
         builder.addCase(saveOrUpdate.fulfilled, (state) => {
             state.loadingStore = false;
             state.modalVisible = false;
+            state.modalVisibleConfirm = false;
+            state.modalVisibleDetail = false;
             state.mode === "Add"
                 ? openNotificationWithIcon({
                     type: "success",
